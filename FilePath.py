@@ -265,7 +265,6 @@ def test():
     root.withdraw()
     fd = LoadFileDialog(root)
     loadfile = fd.go(key="test")
-    print loadfile
     #fd = SaveFileDialog(root)
     #savefile = fd.go(key="test")
     #print savefile
